@@ -4,6 +4,9 @@
     state: permissive
 - selinux:
     state: disabled
-- name: Disable firewalld
+- name: stop and Disable firewalld
   firewalld:
      state: disabled
+     profiles:
+    - Domain
+  tags: disable_firewall
