@@ -1,0 +1,4 @@
+- hosts: slave
+  become: true
+  roles:
+    - prova

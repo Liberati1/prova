@@ -1,0 +1,6 @@
+- name: Disable Selinux
+  selinux:
+    policy: targeted
+    state: permissive
+- selinux:
+    state: disabled
