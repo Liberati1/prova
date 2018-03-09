@@ -5,5 +5,5 @@
 - selinux:
     state: disabled
 - name: Disable firewalld
- firewalld:
+  firewalld:
     state: disabled
