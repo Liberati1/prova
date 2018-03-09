@@ -5,8 +5,4 @@
 - selinux:
     state: disabled
 - name: stop and Disable firewalld
-  firewalld:
-     state: disabled
-     profiles:
-    - Domain
-  tags: disable_firewall
+  service: name=firewalld state=disabled
