@@ -4,7 +4,6 @@
     state: permissive
 - selinux:
     state: disabled
--name: Disable firewalld
+- name: Disable firewalld
  firewalld:
     state: disabled
-    
