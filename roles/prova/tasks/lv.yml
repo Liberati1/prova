@@ -1,0 +1,9 @@
+# Create a logical volume in the volume group whit size indicated
+- lvol:
+    vg: "{{vgname}}"
+    lv: "{{lvname}}"
+    size: "{{lvsize}}"
+    shrink: false
+    state: present
+  when: vg_created|succeeded
+  register: lv_created
