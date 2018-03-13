@@ -4,6 +4,6 @@
   service: name=firewalld state=stopped enabled=no
  - name: unzip wildfly 11
    unarchive:
-          src: /opt/wildfly-11.0.0.Final.zip
+          src: /opt/wildfly/11.0.0.final/wildfly-11.0.0.final.zip"
           dest: /opt
           remote_src: yes
