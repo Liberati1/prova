@@ -2,7 +2,7 @@
     state: disabled
 - name: stop and Disable firewalld
   service: name=firewalld state=stopped enabled=no
- - name: unzip wildfly 11
+- name: unzip wildfly 11
    unarchive:
           src: /opt/wildfly/11.0.0.final/wildfly-11.0.0.final.zip"
           dest: /opt
