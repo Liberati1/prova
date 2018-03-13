@@ -1,4 +1,5 @@
 - file:
-    path: /etc/wildfly.conf
+    path: /etc/default/wildfly.conf
     owner: wildfly
     group: wildfly
+    recurse: yes
