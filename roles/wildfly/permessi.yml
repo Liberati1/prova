@@ -1,0 +1,4 @@
+- file:
+    path: /etc/wildfly.conf
+    owner: wildfly
+    group: wildfly
