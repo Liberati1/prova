@@ -1,7 +1,7 @@
 - import_tasks: host-master.yml
 - import_tasks: host.yml
-#- import_tasks: secret.yml
-#- import_tasks: add-user.yml
-#- import_tasks: wildfly.conf.yml
-#- import_tasks: wildfly.conf.yml
-#- import_tasks: init.d.yml
+- import_tasks: secret.yml
+- import_tasks: add-user.yml
+- import_tasks: wildfly.conf.yml
+- import_tasks: wildfly.conf.yml
+- import_tasks: init.d.yml
