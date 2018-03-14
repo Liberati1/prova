@@ -1,10 +1,10 @@
-- hosts: slave
+- hosts: master
   become: true
   roles:
     - prova
     - wildfly
     - master
-- hosts: master
+- hosts: slave
   become: true
   roles:
     - prova
