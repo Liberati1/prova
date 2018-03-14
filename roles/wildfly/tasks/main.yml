@@ -1,4 +1,4 @@
-#- import_tasks: download.wildfly.yml
+- import_tasks: download.wildfly.yml
 - import_tasks: unzip.yml
 - import_tasks: useradd.yml
 - import_tasks: permessi.yml
