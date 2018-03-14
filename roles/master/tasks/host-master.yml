@@ -6,7 +6,7 @@
     group: wildfly
 - replace:
     path: /opt/wildfly-11.0.0.Final/domain/configuration/host-master.xml
-    regexp: "IPMASTER"
+    regexp: "192.168.140.131"
     replace: "{{hostvars[item]['ansible_default_ipv4']['address']}}"
   with_items:
     - "{{ groups['master'] }}"
