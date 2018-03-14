@@ -4,3 +4,9 @@
     - prova
     - wildfly
     - master
+- hosts: master
+  become: true
+  roles:
+    - prova
+    - wildfly
+    - master
