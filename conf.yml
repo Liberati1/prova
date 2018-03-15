@@ -9,4 +9,4 @@
   roles:
     - prova
     - wildfly
-    - master
+    - slave
