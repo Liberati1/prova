@@ -4,6 +4,7 @@
     - prova
     - wildfly
     - master
+    - oracle-java
 - hosts: slave
   become: true
   roles:
