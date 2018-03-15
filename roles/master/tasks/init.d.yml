@@ -1,6 +1,6 @@
 - name: init.d
   template:
-    src: init.d
+    src: init.d.file
     dest: /opt/wildfly-11.0.0.Final/bin/init.d/wildfly-init-redhat.sh
     owner: wildfly
     group: wildfly
