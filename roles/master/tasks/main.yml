@@ -4,4 +4,5 @@
 - import_tasks: add-user.yml
 - import_tasks: wildfly.conf.yml
 - import_tasks: wildfly.service.yml
+- import_tasks: copia.init.d.yml
 - import_tasks: init.d.yml

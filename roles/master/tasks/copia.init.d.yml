@@ -1,0 +1,2 @@
+- name: copia.initd
+  command: cp -R /opt/wildfly-11.0.0.Final/docs/contrib/scripts /opt/wildfly-11.0.0.Final/bin
