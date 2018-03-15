@@ -3,4 +3,4 @@
 #Il master_node è il nome della macchina master sul quale viene effettuato il comando ./add-user.sh
 ACCOUNT: admin
 PASSWORD: almaviva00
-master_node: masteransible
+master_node: master
