@@ -1,6 +1,6 @@
 - name: wildfly service
   template:
-    src: wildfly.service
+    src: wildfly.service.file
     dest: /etc/systemd/system/wildfly.service
     owner: wildfly
     group: wildfly
