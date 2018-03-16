@@ -5,9 +5,11 @@
     - wildfly
     - master
     - oracle-java
+    - driver
 - hosts: slave
   become: true
   roles:
     - prova
     - wildfly
     - slave
+    - driver
